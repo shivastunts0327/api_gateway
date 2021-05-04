@@ -162,7 +162,7 @@
 <distributionManagement>
     <snapshotRepository>
       <id>maven-snapshots</id>
-      <url>http://54.234.149.175:8081/repository/api_gateway_infosys_kotak_prod/</url>
+      <url>http://54.234.149.175:8081/repository/api_gateway/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
