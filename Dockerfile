@@ -7,7 +7,7 @@ MAINTAINER vijayendrap@gmail.com
 EXPOSE 8080
 
 # executable ADD @project.artifactId@-@project.version@.jar app.jar
-ADD ./targets/api-gateway.jar app.jar
+ADD target/api-gateway.jar app.jar
 
 # run app as user 'booter'
 RUN /bin/sh -c 'touch /app.jar'
